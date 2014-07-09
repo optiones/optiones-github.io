@@ -1,7 +1,9 @@
 # Coding guidelines
 
 ## Strict Mode
-Include 'use strict' in each .js file.
+Include at the beginning of each .js file:
+
+    'use strict';
 
 More details on strict mode:
 
@@ -13,7 +15,7 @@ More details on strict mode:
 
 ## Naming conventions
 
-1. Variables that contain jquery selected elements should start with a '$'.
+Variables that contain jquery selected elements should start with a '$'.
 
 Not:
 
