@@ -27,6 +27,8 @@ Do:
 
 ## Anonymous closures
 
+Use  always, to prevent global variables:
+
     (function () {
         // ... all vars and functions are in this scope only
         // still maintains access to all globals
