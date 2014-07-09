@@ -28,6 +28,6 @@ Do:
 ## Anonymous closures
 
     (function () {
-	// ... all vars and functions are in this scope only
-	// still maintains access to all globals
+        // ... all vars and functions are in this scope only
+        // still maintains access to all globals
     }());
