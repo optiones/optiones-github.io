@@ -14,7 +14,11 @@ More details on strict mode:
 ## Naming conventions
 
 1. Variables that contain jquery selected elements should start with a '$'.
+
 Not:
+
     var due = $('#due');
+
 Do:
+
     var $due = $('#due');
