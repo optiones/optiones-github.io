@@ -14,7 +14,15 @@ We use JSHint to enforce certain coding principles.
 ## Strict Mode
 Include at the beginning of each .js file:
 
-    'use strict';
+    "use strict";
+
+It is important that each statement is put in a closure like this (so the strict mode does not extend when bundling to files that are not intended):
+
+    (function(){
+        "use strict";
+
+        // All other code here
+    })();
 
 More details on strict mode:
 
@@ -28,7 +36,7 @@ More details on strict mode:
 
 Variables that contain jquery selected elements should start with a '$'.
 
-Not:
+Don't:
 
     var due = $('#due');
 
