@@ -11,6 +11,16 @@ We use JSHint to enforce certain coding principles.
 [JSHInt Default Options](https://github.com/jshint/jshint/blob/master/examples/.jshintrc)
 
 
+## Anonymous closures
+
+Use  always, to prevent global variables:
+
+    (function () {
+        // ... all vars and functions are in this scope only
+        // still maintains access to all globals
+    }());
+
+
 ## Strict Mode
 Include at the beginning of each .js file:
 
@@ -43,12 +53,3 @@ Don't:
 Do:
 
     var $due = $('#due');
-
-## Anonymous closures
-
-Use  always, to prevent global variables:
-
-    (function () {
-        // ... all vars and functions are in this scope only
-        // still maintains access to all globals
-    }());
