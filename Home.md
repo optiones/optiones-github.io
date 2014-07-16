@@ -1,3 +1,3 @@
-# [Coding Guidelines](wiki/Coding-Guidelines)
+## [Coding Guidelines](wiki/Coding-Guidelines)
 
-# [Automated Testing](wiki/Automated-Testing)
+## [Automated Testing](wiki/Automated-Testing)
