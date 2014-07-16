@@ -25,4 +25,4 @@ To run the tests via [BrowserStack](http://www.browserstack.com/start) you need 
 
 To run a single test:
 
-    $ ./nightwatch -t tests/demotest.js
+    $ .nightwatch -t tests/auth/loginFail.js
