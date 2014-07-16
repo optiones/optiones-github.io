@@ -19,3 +19,6 @@ These tests reside in
  
     /test/integration
 
+In order to run the tests locally, you have to have [Selenium](http://www.seleniumhq.org/) server running on your machine.
+
+To run the tests via [BrowserStack](http://www.browserstack.com/start) you need to specify your API keys via the command line (not yet implemented, but shouldn't be stored in the config).
