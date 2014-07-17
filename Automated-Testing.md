@@ -23,6 +23,20 @@ In order to run the tests locally, you have to have [Selenium](http://www.seleni
 
 To run the tests via [BrowserStack](http://www.browserstack.com/start) you need to specify your API keys via the command line (not yet implemented, but shouldn't be stored in the config).
 
-To run a single test:
+
+
+Run all tests locally (on firefox):
+
+    nightwatch
+
+Run a single test:
 
     nightwatch -t tests/auth/loginFail.js
+
+Run a group of tests:
+
+    nightwatch -g auth
+
+Run tests via BrowserStack:
+
+    nightwatch -c browserstack.json
