@@ -40,3 +40,7 @@ Run a group of tests:
 Run tests via BrowserStack:
 
     nightwatch -c browserstack.json
+
+Run test on all browsers via BrowserStack:
+
+    nightwatch -c browserstack.json -e chrome,firefox,ie
