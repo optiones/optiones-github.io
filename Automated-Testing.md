@@ -44,3 +44,11 @@ Run tests via BrowserStack:
 Run test on all browsers via BrowserStack:
 
     nightwatch -c browserstack.json -e chrome,firefox,ie
+
+You can also run via Grunt like this:
+
+    grunt shell:nightwatch
+
+or
+
+    grunt shell:browserstack
