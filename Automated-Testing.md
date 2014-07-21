@@ -48,8 +48,10 @@ Run test on all browsers via BrowserStack:
 
 ####You can also run via Grunt like this:
 
+Locally:
+
     grunt shell:nightwatch
 
-or
+BrowserStack:
 
     grunt shell:browserstack
