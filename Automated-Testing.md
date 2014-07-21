@@ -39,11 +39,9 @@ Run a group of tests:
 
 Run tests via BrowserStack:
 
-    nightwatch -c browserstack.json
-
-Run test on all browsers via BrowserStack:
-
-    nightwatch -c browserstack.json -e chrome,firefox,ie
+    nightwatch -c browserstack-ff.json
+    nightwatch -c browserstack-ch.json
+    nightwatch -c browserstack-ie.json
 
 
 ####You can also run via Grunt like this:
