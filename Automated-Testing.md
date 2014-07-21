@@ -31,7 +31,7 @@ Run all tests locally (on firefox):
 
 Run a single test:
 
-    nightwatch -t tests/auth/loginFail.js
+    nightwatch -t tests/auth/loginFail
 
 Run a group of tests:
 
