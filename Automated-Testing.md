@@ -53,3 +53,14 @@ Locally:
 BrowserStack:
 
     grunt shell:browserstack
+
+
+## Smoke Tests
+
+Smoke testing is preliminary testing to reveal simple failures severe enough to reject a prospective software release. A subset of test cases that cover the most important functionality of a component or system is selected and run, to ascertain if the most crucial functions of a program work correctly.
+
+To run smoke tests locally:
+
+    grunt shell:smoke
+
+Smoke tests for Binary.com consist of loading a comprehensive list of URLs covering a big surface of the application's functionality, and checking if they load or throw an error (server or client side).
