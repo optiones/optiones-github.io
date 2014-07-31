@@ -39,9 +39,17 @@ Run a group of tests:
 
 Run tests via BrowserStack:
 
-    nightwatch -c browserstack-ff.json
-    nightwatch -c browserstack-ch.json
-    nightwatch -c browserstack-ie.json
+Firefox (default):
+
+    nightwatch -c browserstack.json
+
+Chrome:
+
+    nightwatch -c browserstack.json --env chrome
+
+Internet Explorer:
+
+    nightwatch -c browserstack.json --env ie
 
 
 ####You can also run via Grunt like this:
