@@ -1,9 +1,14 @@
-How to work with this project
-=============================
+The site's Javascript is served from 
 
-As you can see by doing *View Source* on www.binary.com, the site's Javascript is served from https://static.binary.com/binary-static/js/binary_[VERSION].min.js and the CSS is served from https://static.binary.com/binary-static/css/binary_[VERSION].min.css (static.binary.com is a CNAME to binary-com.github.io).
+    https://static.binary.com/binary-static/js/binary_[VERSION].min.js 
 
-Note that the files are served using Github's [pages.github.io](https://pages.github.com/) facilities.
+and the CSS is served from 
+
+    https://static.binary.com/binary-static/css/binary_[VERSION].min.css 
+
+static.binary.com is a CNAME to binary-com.github.io
+
+The files are served using Github's [pages.github.io](https://pages.github.com/) facilities.
 
 In order to work on your own version of the Binary.com Javascript and CSS, please **fork this project**.
 
