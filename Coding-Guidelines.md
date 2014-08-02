@@ -1,3 +1,7 @@
+## General Guidelines
+
+[Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
+
 ## Anonymous closures
 
 Use  always, to prevent global variables:
