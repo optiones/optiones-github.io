@@ -8,7 +8,7 @@ To run:
     grunt shell:continuous
 
 
-Run with more options: go to /tests/continuous
+Run with more options, go to /tests/continuous
 
 Run locally:
 
