@@ -4,3 +4,5 @@
 
 ## [Automated Testing](wiki/Automated-Testing)
 
+## [Contributing Guide](wiki/Contributing-Guide)
+
