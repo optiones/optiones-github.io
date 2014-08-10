@@ -6,3 +6,4 @@
 
 ## [Contributing Guide](wiki/Contributing-Guide)
 
+## [Continuous Testing](wiki/Continuous Testing)
