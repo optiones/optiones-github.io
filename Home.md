@@ -7,3 +7,6 @@
 ## [Contributing Guide](wiki/Contributing-Guide)
 
 ## [Continuous Testing](wiki/Continuous Testing)
+
+
+## [Custom Builds of JavaScript Components](wiki/Custom Builds of JavaScript Components)
