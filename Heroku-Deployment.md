@@ -9,7 +9,15 @@
 1. Make sure the [Heroku Toolbelt](https://toolbelt.heroku.com/) is installed
 2. Open Terminal/Command Prompt.
 3. Go to your binary-static directory
-4. Run 
+4. Run this: (where app-name is a custom name of your choosing)
 
         heroku create app-name
 
+5. Check it is working:
+
+        git remote -v
+
+you should see something like this:
+
+       heroku     git@heroku.com:app-name.git (fetch)
+        heroku     git@heroku.com:app-name.git (push)
