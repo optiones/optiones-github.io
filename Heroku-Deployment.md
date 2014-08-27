@@ -30,3 +30,7 @@
 7. Deploy:
 
         git push heroku master
+
+8. Open site:
+
+        heroku open
