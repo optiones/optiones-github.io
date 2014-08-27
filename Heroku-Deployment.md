@@ -17,7 +17,11 @@
 
         git remote -v
 
-you should see something like this:
+    you should see something like this:
 
-       heroku     git@heroku.com:app-name.git (fetch)
-        heroku     git@heroku.com:app-name.git (push)
+        heroku git@heroku.com:app-name.git (fetch)
+        heroku git@heroku.com:app-name.git (push)
+
+6. Deploy:
+
+        git push heroku master
