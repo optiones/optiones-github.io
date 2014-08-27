@@ -22,6 +22,11 @@
         heroku git@heroku.com:app-name.git (fetch)
         heroku git@heroku.com:app-name.git (push)
 
-6. Deploy:
+6. Configure:
+
+        heroku config:set BUILDPACK_URL=https://github.com/miyagawa/heroku-buildpack-perl.git
+        heroku ps:scale web=1
+
+7. Deploy:
 
         git push heroku master
