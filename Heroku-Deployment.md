@@ -4,6 +4,16 @@
 2. Specify app name (optional)
 3. Click 'Deploy for Free'
 
+## Update deployment
+
+First deployment to Heroku, after using the 'Deploy to Heroku' button:
+
+    git push -f heroku master:master
+
+For any subsequent updates, you can use the shorter:
+
+    git push heroku master
+
 ## Deploy from command line
 
 1. Make sure the [Heroku Toolbelt](https://toolbelt.heroku.com/) is installed
