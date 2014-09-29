@@ -6,6 +6,10 @@
 
 ## Update deployment
 
+You need to have [Heroku Toolbelt](https://toolbelt.heroku.com) installed. Then run this:
+
+    heroku keys:add
+
 First deployment to Heroku, after using the 'Deploy to Heroku' button:
 
     git push -f heroku master:master
