@@ -8,5 +8,6 @@
 
 ## [Continuous Testing](wiki/Continuous Testing)
 
-
 ## [Custom Builds of JavaScript Components](wiki/Custom Builds of JavaScript Components)
+
+## [Heroku Deployment](wiki/Heroku-Deployment)
