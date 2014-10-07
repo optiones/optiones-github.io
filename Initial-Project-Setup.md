@@ -20,7 +20,6 @@ You will also need to install the following on your development machine:
 After you have made your code edits, you can run the Javascript and CSS minification by doing:
 
 - Go to project root
-- `gem install compass`
 - `npm install`
 - `npm install -g grunt-cli`
 - `grunt`
